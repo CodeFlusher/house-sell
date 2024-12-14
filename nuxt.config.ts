@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  modules: [
-      '@nuxtjs/i18n',
-      'nuxt-headlessui',
-  ],
+  modules: ['@nuxtjs/i18n', 'nuxt-headlessui', '@nuxt/image'],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   i18n: {

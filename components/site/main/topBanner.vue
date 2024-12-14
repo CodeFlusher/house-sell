@@ -1,5 +1,9 @@
 <template>
-  <div class="w-full aspect-video">
+  <div class="w-full aspect-video flex flex-col gap-2">
+
+    <h1 class="text-4xl font-bold text-center text-black dark:text-white">
+      {{$t('ui.pages.main.banner_title')}}
+    </h1>
 
     <div class="">
       <img :src="image" alt="alt" class="w-full aspect-[2/1] md:aspect-[3/1] object-cover">

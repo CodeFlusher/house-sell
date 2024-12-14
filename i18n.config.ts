@@ -14,6 +14,7 @@ export default defineI18nConfig(() => ({
             'ui.pages.main.description': "We're here to help you: our company serves household design, planning, building",
             'ui.pages.main.watch_works': "See our projects...",
             'ui.pages.main.shop': "Order from us",
+            'ui.pages.main.banner_title': "Projects Showcase",
 
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",
@@ -30,6 +31,8 @@ export default defineI18nConfig(() => ({
             'ui.pages.main.description': "Мы - та компания, которая сделает ваш дом. Мы сделаем дизайн, планировку, здание",
             'ui.pages.main.watch_works': "Посмотреть наши проекты",
             'ui.pages.main.shop': "Взять заказ",
+
+            'ui.pages.main.banner_title': "Витрина Работ",
 
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",
