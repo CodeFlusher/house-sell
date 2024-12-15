@@ -1,8 +1,8 @@
 <template>
-  <header class="backdrop-blur-lg flex px-4 z-20">
+  <header class="backdrop-blur-lg flex px-4 z-20 backdrop-brightness-110">
     <LazyNuxtLinkLocale class="flex my-auto gap-2 " to="/">
       <HomeModernIcon class="size-10 my-auto aspect-square text-black dark:text-white" > </HomeModernIcon>
-      <NavigationTab classoverride="font-bold" title="Project Household" ></NavigationTab>
+      <NavigationTab classOverride="font-bold" title="Project Household" ></NavigationTab>
     </LazyNuxtLinkLocale>
 
     <div class="flex ml-auto gap-2">

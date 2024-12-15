@@ -5,7 +5,7 @@
   <div class="m-12 xl:m-24 md:mr-auto flex flex-col gap-2 p-4 rounded-xl z-0 shadow-xl dark:shadow-none xl:max-w-[33%]">
     <LazyNuxtLinkLocale class="flex my-auto gap-2" to="/">
       <HomeModernIcon class="size-12 my-auto aspect-square text-black dark:text-white" > </HomeModernIcon>
-      <NavigationTab classoverride="font-extrabold text-4xl" title="Project Household" ></NavigationTab>
+      <NavigationTab classOverride="font-extrabold text-4xl" title="Project Household" ></NavigationTab>
     </LazyNuxtLinkLocale>
     <span class="text-neutral-800 dark:text-neutral-300 text-2xl text-wrap ">
       {{ $t('ui.pages.main.description') }}

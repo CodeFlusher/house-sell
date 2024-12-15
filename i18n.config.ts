@@ -16,6 +16,9 @@ export default defineI18nConfig(() => ({
             'ui.pages.main.shop': "Order from us",
             'ui.pages.main.banner_title': "Projects Showcase",
 
+            'ui.pages.cards.design.name':"Design",
+            'ui.pages.cards.design.description':"Our team of professional designers gives our client high quality solutions in design of their households",
+
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",
         },
