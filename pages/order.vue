@@ -1,13 +1,11 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <span>
     ДОКТОР ПАРАФИН
   </span>
 </template>
 
-<style scoped>
+<script setup lang="ts">
+import {sleep} from "@antfu/utils";
 
-</style>
+await sleep(1000)
+</script>
