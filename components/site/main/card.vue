@@ -1,7 +1,5 @@
 <template>
-  <div class="border border-neutral-200 dark:border-neutral-800 shadow-lg dark:shadow-none rounded-xl p-4 flex gap-2 max-w-96 min-w-96 backdrop-blur-xl backdrop-brightness-110">
-
-
+  <div class="border border-neutral-200 dark:border-neutral-800 shadow-lg dark:shadow-none rounded-xl p-4 flex gap-2 max-w-96 min-w-96 backdrop-blur-xl backdrop-brightness-125 hover:border-orange-300 hover:bg-orange-200 hover:bg-opacity-5 transition duration-200 ease-in-out " >
     <component :is="icon" class="size-6 min-w-6 mt-1 dark:text-white"></component>
     <div>
       <h2 class="text-2xl text-black dark:text-white font-bold"> {{$t(String(name))}}</h2>
@@ -16,6 +14,7 @@
 <script setup lang="ts">
 import type {MainPageCard} from "~/types/dynamic.front";
 
+const isOver = ref<Boolean>(false);
 const props = defineProps<MainPageCard>();
 
 </script>

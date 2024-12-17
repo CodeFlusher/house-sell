@@ -1,36 +1,13 @@
 <template>
   <div class="h-full w-full flex flex-col">
-    <SiteMainTitle/>
+    <SiteMainTitle class="z-0"/>
 <!--    <SiteMainTopBanner></SiteMainTopBanner>-->
-    <div class="max-w-full mx-auto no-scrollbar">
-      <ul class="flex mx-auto gap-4 p-2 h-fit overflow-x-scroll" @wheel="applyHorizontalScroll">
-        <SiteMainCard v-for="item in cards" :name="item.name" :description="item.description" :icon="item.icon"></SiteMainCard>
-      </ul>
+    <div class="flex flex-col shadow-xl bg-gradient-to-b from-neutral-100 to-neutral-50 dark:to-neutral-900 dark:from-neutral-800 border-t-2 border-neutral-200 dark:border-neutral-700 py-6 ">
+      <SiteMainCards/>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import type {MainPageCard} from "~/types/dynamic.front";
 
-import {applyHorizontalScroll} from "~/utils/horizontalScroll";
-import {FolderIcon} from "@heroicons/vue/24/solid";
-
-const cards = ref<MainPageCard[]>([{
-  name: 'ui.pages.cards.design.name',
-  description: 'ui.pages.cards.design.description',
-  icon: FolderIcon,
-},{
-  name: 'ui.pages.cards.plan.name',
-  description: 'ui.pages.cards.plan.description',
-  icon: FolderIcon,
-},{
-  name: 'ui.pages.cards.build.name',
-  description: 'ui.pages.cards.build.description',
-  icon: FolderIcon,
-},{
-  name: 'ui.pages.cards.hq.name',
-  description: 'ui.pages.cards.hq.description',
-  icon: FolderIcon,
-}])
 </script>

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   modules: ['@nuxtjs/i18n', 'nuxt-headlessui', '@nuxt/image'],
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['./index.css'],
   i18n: {
     lazy: true,
     locales:['en', 'ru'],
