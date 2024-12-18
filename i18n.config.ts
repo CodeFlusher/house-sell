@@ -30,6 +30,12 @@ export default defineI18nConfig(() => ({
             'ui.pages.cards.hq.name':"Price",
             'ui.pages.cards.hq.description':"Our company projects are always high-quality even on low budget terms",
 
+            'ui.pages.cards.designer.see_works':"Check out works",
+            'ui.pages.main.designers':"Our best designers",
+
+            'ui.site.image404':"Image not found or didnt load properly",
+
+
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",
         },
@@ -61,6 +67,8 @@ export default defineI18nConfig(() => ({
 
             'ui.pages.cards.hq.name':"Низкую стоимость",
             'ui.pages.cards.hq.description':"Мы создаем проекты высокого уровня даже для низкого бюджета",
+
+            'ui.site.image404':"Изображение не найдено или произошла ошибка загрузки.",
 
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",

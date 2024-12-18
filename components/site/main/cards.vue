@@ -4,7 +4,7 @@
     <div class="blur-3xl size-96 bg-orange-300 dark:opacity-30 absolute left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full"></div>
     <h2 class="font-extrabold text-4xl text-black dark:text-white text-center z-0"> {{$t('ui.pages.main.cards')}}</h2>
     <ul class=" w-full flex mx-auto gap-4 p-2 h-fit overflow-x-scroll no-scrollbar" @wheel="applyHorizontalScroll">
-      <SiteMainCard v-for="item in cards" :name="item.name" :description="item.description" :icon="item.icon"></SiteMainCard>
+      <SiteCardPlus v-for="item in cards" :name="item.name" :description="item.description" :icon="item.icon"></SiteCardPlus>
     </ul>
   </div>
 
