@@ -18,6 +18,9 @@ export default defineI18nConfig(() => ({
 
             'ui.pages.main.cards':"We're here to help you with",
 
+            'ui.pages.title.main':"The company where your dream house born",
+            'ui.pages.title.description':"The team of professional workers, designers, engineers, architects is here to make your dream real",
+
             'ui.pages.cards.design.name':"Design",
             'ui.pages.cards.design.description':"Our team of professional designers gives our client high quality solutions in design of their households",
 
@@ -31,10 +34,23 @@ export default defineI18nConfig(() => ({
             'ui.pages.cards.hq.description':"Our company projects are always high-quality even on low budget terms",
 
             'ui.pages.cards.designer.see_works':"Check out works",
-            'ui.pages.main.designers':"Our best designers",
+            'ui.pages.main.designers':"Our best team members",
+
+            'ui.pages.main.questions.title':"Any questions left?",
+            'ui.pages.main.questions.description':"Contact us for more information: Leave a simple e-mail request",
+
+            'ui.pages.main.questions.submit':"Leave a request",
+
+            'ui.input.email.title':"E-mail",
+            'ui.input.email.placeholder':'e.g. example@example.com',
+
+            'ui.input.name.title':"Your name",
+            'ui.input.name.placeholder':"e.g. Ivan, Mia, John etc.",
+
+            'ui.input.question.title':"Your question",
+            'ui.input.question.placeholder':"e.g. what is build time for my house?",
 
             'ui.site.image404':"Image not found or didnt load properly",
-
 
             'ui.locale.en': "English",
             'ui.locale.ru': "Русский",

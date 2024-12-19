@@ -9,8 +9,19 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Funnel Sans", "sans-serif"],
+    },
+    extend: {
+      text:{
+        '6xl': '3.375rem',
+        '8xl': '4.5rem'
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
+      }
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-gradient-mask-image")]
 }
 

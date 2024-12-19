@@ -1,7 +1,10 @@
 <template>
- <NuxtLayout>
- </NuxtLayout>
+
 </template>
+
+<style scoped>
+
+</style>
 
 <script setup lang="ts">
 

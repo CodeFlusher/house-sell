@@ -1,5 +1,5 @@
 <template>
-  <header class="backdrop-blur-xl flex px-4 z-20 backdrop-brightness-75 border-b border-neutral-200 dark:border-neutral-900 border-opacity-40">
+  <header class="backdrop-blur-xl flex px-4 z-[10000] backdrop-brightness-75 border-b border-neutral-200 dark:border-neutral-900 border-opacity-40">
     <LazyNuxtLinkLocale class="flex my-auto gap-4 " to="/">
       <Bars3Icon class="size-8 my-auto dark:text-white hover:text-orange-300 sm:hidden bg-opacity-0 transition-colors duration-200 "/>
       <HomeModernIcon class="size-10 my-auto aspect-square text-black dark:text-white hover:text-orange-300 transition-colors duration-200"  > </HomeModernIcon>
@@ -31,7 +31,9 @@ const router = useRouter();
 
 const routerPaths = ref<String[]>([
     'order',
-    'projects'
+    'projects',
+    'places',
+    'history'
 ])
 
 </script>
