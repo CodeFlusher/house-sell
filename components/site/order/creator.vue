@@ -9,24 +9,24 @@
         {{$t('ui.pages.orders.description')}}
       </span>
       <KitInputType :label="$t('ui.pages.order.area')" class="mt-4" :min="10" :max="300" >m²</KitInputType>
-      <div>
-
-        <KitChooseboxButton :title="$t('ui.pages.order.building_type')">
-          <template v-slot:button>
+      <KitChooseboxController>
+        <template v-slot:button>
+          <KitChooseboxButton :title="$t('ui.pages.order.building_type')">
             <span class="text-style-normal text-xl">text</span>
-          </template>
-          <template v-slot:items>
-            <KitChooseboxItems slot="items" >
-              <span class="text-style-normal text-xl">123</span>
-              <span class="text-style-normal text-xl">123</span>
-              <span class="text-style-normal text-xl">123</span>
-              <span class="text-style-normal text-xl">123</span>
-            </KitChooseboxItems>
-          </template>
-        </KitChooseboxButton>
-      </div>
-      <KitSlider :label="$t('ui.pages.order.area')" class="mt-4" :min="10" :max="300" />
+          </KitChooseboxButton>
+        </template>
 
+        <template v-slot:items>
+          <KitChooseboxItems>
+            <KitChooseboxItem>
+              <span class="text-style-normal text-xl">123</span>
+            </KitChooseboxItem>
+
+          </KitChooseboxItems>
+        </template>
+      </KitChooseboxController>
+
+      <KitInputType :label="$t('ui.pages.order.area')" class="mt-4" :min="10" :max="300" >m²</KitInputType>
     </KitTransparentCard>
 
     <img src="">

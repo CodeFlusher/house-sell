@@ -1,8 +1,7 @@
 <template>
-
-  <KitTransparentCard class="mt-2 grid grid-col-1 gap-2 p-2" overrideclass="z-50">
+  <KitCardNormal class="mt-2 grid grid-col-1 gap-2 p-2 z-50" overrideclass="z-50">
     <slot> </slot>
-  </KitTransparentCard>
+  </KitCardNormal>
 
 </template>
 
