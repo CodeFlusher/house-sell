@@ -7,6 +7,8 @@ export default defineI18nConfig(() => ({
             'ui.header.pages.order': 'Order',
             'ui.header.pages.projects': 'Our Projects',
             'ui.header.pages.personal_page': 'Account',
+            'ui.header.pages.places': 'Our Places',
+            'ui.header.pages.history': 'Our origins',
             'ui.header.language.button': 'Change Language',
 
             'ui.header.auth.button': 'Account',
@@ -41,8 +43,11 @@ export default defineI18nConfig(() => ({
 
             'ui.pages.main.questions.submit':"Leave a request",
 
+            'ui.pages.order.area':"Area of your house",
+
             'ui.input.email.title':"E-mail",
-            'ui.input.email.placeholder':'e.g. example@example.com',
+            'ui.input.email.placeholder':'e.g. example example.com',
+            'ui.input.email.wrong':'Invalid e-mail provided',
 
             'ui.input.name.title':"Your name",
             'ui.input.name.placeholder':"e.g. Ivan, Mia, John etc.",

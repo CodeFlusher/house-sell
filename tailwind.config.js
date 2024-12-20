@@ -17,6 +17,11 @@ export default {
         '6xl': '3.375rem',
         '8xl': '4.5rem'
       },
+      transitionProperty: {
+        'width': 'width',
+        'height': 'height'
+      },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
       }

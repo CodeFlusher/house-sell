@@ -1,11 +1,9 @@
 <template>
-  <span>
-    ДОКТОР ПАРАФИН
-  </span>
+  <div class="h-full w-full flex flex-col">
+    <SiteOrderCreator class="mt-4" />
+  </div>
 </template>
 
 <script setup lang="ts">
-import {sleep} from "@antfu/utils";
 
-await sleep(1000)
 </script>

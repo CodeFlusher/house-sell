@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
     "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.20.0",
     "@nuxtjs/i18n": "^9.0.0-rc.2",
     "autoprefixer": "^10.4.20",
     "nuxt": "^3.14.1592",
