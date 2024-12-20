@@ -1,7 +1,6 @@
 <template>
  <NuxtLayout>
-   <NuxtPage class="mt-16"/>
-
+   <NuxtPage class="mt-16 min-h-screen"/>
  </NuxtLayout>
 </template>
 

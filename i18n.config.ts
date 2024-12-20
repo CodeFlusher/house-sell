@@ -44,6 +44,16 @@ export default defineI18nConfig(() => ({
             'ui.pages.main.questions.submit':"Leave a request",
 
             'ui.pages.order.area':"Area of your house",
+            'ui.pages.order.title':"Order Calculator",
+            'ui.pages.order.description':"Use this tool to evaluate approximate price for your building",
+            'ui.pages.order.building_type':"Building Type",
+
+            'ui.pages.order.type.apartment':"Apartment",
+            'ui.pages.order.type.house':"House",
+            'ui.pages.order.type.penthouse':"Penthouse",
+            'ui.pages.order.type.commercial':"Commercial",
+
+            'ui.choose_box.choose_option':"Choose any option",
 
             'ui.input.email.title':"E-mail",
             'ui.input.email.placeholder':'e.g. example example.com',

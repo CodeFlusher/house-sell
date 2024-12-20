@@ -1,6 +1,6 @@
 <template>
   <div class="h-full w-full flex flex-col">
-    <SiteOrderCreator class="mt-4" />
+    <SiteOrderCreator class=" m-auto" />
   </div>
 </template>
 
