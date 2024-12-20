@@ -22,7 +22,7 @@ const data = ref<Array<DesignerCard>>([{
   name: "Egoriy",
   image: "https://media.discordapp.net/attachments/707912596333789235/1319285275297316884/IMG_20241218_013200_518.jpg?ex=676567a8&is=67641628&hm=f41020aeafe805bc220f5532f0ed392c6c2f382e0e9f7e91ebaee2e586efe096&=&format=webp&width=302&height=670",
   description: "Front-end developer for this internet resource - Project Household",
-  rating: 14.88
+  rating: 2.7
 },
   {
     name: 'Vadimiy',

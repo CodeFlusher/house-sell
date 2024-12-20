@@ -3,8 +3,8 @@
   <div>
     <label for="input_field" class="text-style-title text-xl"> {{label}} </label>
     <div id="input_field" class="flex w-full gap-2">
-      <InputField class="w-14" :enabled='true' type="number" :input="amount" placeholder="0" />
-      <URange class="my-auto" v-model="amount" :max="max" :min="min"/>
+      <KitInputField class="w-full" :enabled='true' type="number" :input="amount" placeholder="0" />
+      <span class="text-style-normal text-xl my-auto"> <slot/> </span>
     </div>
 
 
@@ -13,6 +13,8 @@
 </template>
 
 <script setup lang="ts">
+
+import 'vue-slider-component/theme/antd.css'
 
 const props = defineProps({
   max: Number,

@@ -6,9 +6,9 @@
       <span class="text-style-normal text-2xl">{{$t('ui.pages.main.questions.description')}}</span>
     </div>
     <form action="" class="gap-2 grid grid-cols-1 grid-">
-      <InputEmail/>
-      <InputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.name.title')" :placeholder="$t('ui.input.name.placeholder')"></InputTitled>
-      <InputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.question.title')" :placeholder="$t('ui.input.question.placeholder')"></InputTitled>
+      <KitInputEmail/>
+      <KitInputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.name.title')" :placeholder="$t('ui.input.name.placeholder')"></KitInputTitled>
+      <KitInputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.question.title')" :placeholder="$t('ui.input.question.placeholder')"></KitInputTitled>
       <ButtonText :text="$t('ui.pages.main.questions.submit')"></ButtonText>
     </form>
 
