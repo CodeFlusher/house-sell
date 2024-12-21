@@ -5,6 +5,16 @@ export type MainPageCard = {
     icon: Component,
 }
 
+export type MobileNavButton = {
+    id: string,
+    icon: Component,
+}
+
+export type OrderPhase = {
+    id: string,
+    use: boolean,
+}
+
 export type DesignerCard = {
     name: string,
     image: string,

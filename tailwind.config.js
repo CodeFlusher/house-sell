@@ -27,6 +27,9 @@ export default {
       }
     },
   },
-  plugins: [require("tailwind-gradient-mask-image")]
+  plugins: [
+      require("tailwind-gradient-mask-image"),
+      require("@designbycode/tailwindcss-text-stroke"),
+  ]
 }
 

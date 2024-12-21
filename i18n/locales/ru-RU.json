@@ -1,0 +1,74 @@
+{
+  "ui.header.pages.index": "Главная",
+  "ui.header.pages.order": "Заказ",
+  "ui.header.pages.projects": "Наши работы",
+  "ui.header.pages.personal_page": "Личный Кабинет",
+  "ui.header.pages.places": "Зона покрытия",
+  "ui.header.pages.history": "Наши истоки",
+  "ui.header.language.button": "Поменять Язык",
+
+  "ui.header.auth.button": "Личный Кабинет",
+
+  "ui.pages.main.description": "Мы - та компания, которая сделает ваш дом. Мы сделаем дизайн, планировку, здание",
+  "ui.pages.main.watch_works": "Посмотреть наши проекты",
+  "ui.pages.main.shop": "Взять заказ",
+
+
+  "ui.pages.title.main":"Компания, где рождается дом мечты",
+  "ui.pages.title.description":"Команда профессиональных рабочих, дизайнеров, инженеров готовы выполнить работу на высшем уровне",
+
+  "ui.pages.main.banner_title": "Витрина Работ",
+
+  "ui.pages.main.cards":"Наши услуги включают",
+
+  "ui.pages.cards.design.name":"Дизайн",
+  "ui.pages.cards.design.description":"Наша команда профессиональных дизайнеров предоставит решения высшего качества для каждого клинта",
+
+  "ui.pages.cards.plan.name":"Планировка",
+  "ui.pages.cards.plan.description":"Наша компания создает планировку даже на объектах со сложными исходными данными",
+
+  "ui.pages.cards.build.name":"Строительство",
+  "ui.pages.cards.build.description":"Мы берем всю строительную работу на себя - вам остается только оценить результат",
+
+  "ui.pages.cards.hq.name":"Низкую стоимость",
+  "ui.pages.cards.hq.description":"Мы создаем проекты высокого уровня даже для низкого бюджета",
+
+  "ui.pages.cards.designer.see_works":"Смотреть работы",
+  "ui.pages.main.designers":"Лучшие участники команды",
+
+  "ui.pages.main.questions.title":"Остались вопросы?",
+  "ui.pages.main.questions.description":"Свяжитесь с нами: Здесь вы можете оставить запрос по электронной почте",
+
+  "ui.pages.main.questions.submit":"Оставить запрос",
+
+  "ui.pages.order.area":"Площадь здания",
+  "ui.pages.order.title":"Калькулятор услуг",
+  "ui.pages.order.description":"Используйте данный инструмент что бы примерно оценить стоимость работ",
+  "ui.pages.order.building_type":"Тип строения",
+  "ui.pages.order.separate":"Здание на собственном участке?",
+
+  "ui.pages.order.type.apartment":"Квартира",
+  "ui.pages.order.type.house":"Частный дом",
+  "ui.pages.order.type.penthouse":"Пентхаус",
+  "ui.pages.order.type.commercial":"Площадь коммерческого назначения",
+
+  "ui.choose_box.choose_option":"Выберете вариант",
+
+  "ui.input.email.title":"Электронная Почта",
+  "ui.input.email.placeholder":"например example example.com",
+  "ui.input.email.wrong":"Неправильный вид электронной почты",
+
+  "ui.input.name.title":"Ваше имя",
+  "ui.input.name.placeholder":"например Иван, Светлана, Алексей и тд.",
+
+  "ui.input.question.title":"Ваш вопрос",
+  "ui.input.question.placeholder":"например: цена доставки?",
+
+  "ui.menu.pages.title":"Доступные Страницы",
+
+
+  "ui.site.image404":"Изображение не найдено или произошла ошибка загрузки.",
+
+  "ui.locale.en": "English",
+  "ui.locale.ru": "Русский"
+}

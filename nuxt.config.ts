@@ -6,10 +6,19 @@ export default defineNuxtConfig({
   css: ['./index.css'],
   i18n: {
     lazy: true,
-    locales:['en', 'ru'],
     defaultLocale: 'en',
     detectBrowserLanguage: false,
     vueI18n: './i18n.config.ts',
+    locales: [
+      {
+        code: 'en',
+        file: 'en-US.json'
+      },
+      {
+        code: 'ru',
+        file: 'ru-RU.json'
+      }
+    ]
   },
 
   headlessui: {
@@ -22,4 +31,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
 })

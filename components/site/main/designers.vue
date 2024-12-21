@@ -29,6 +29,11 @@ const data = ref<Array<DesignerCard>>([{
     image: "https://media.discordapp.net/attachments/655398070535585792/1319301464526684192/image.png?ex=676576bc&is=6764253c&hm=4b678760fbfc5cc722b17e18dd2bc5991d00f257e633fac5a9a3ea15bc30851f&=&format=webp&quality=lossless",
     description: "Штурвальеро - онанист, он локальный экстремист",
     rating: 3.1415926535,
+  },{
+    name: "Ildar",
+    image: "https://cdn.discordapp.com/attachments/888096424011645008/1320092106492084284/photo_2024-12-21_21-14-31.jpg?ex=67685714&is=67670594&hm=f7359783592989c19516c65956f36269892badc6ce811d064e73770370f72e87&",
+    description: "Казанская гадалка, всезреющая есновидица, вездесущая Светлана и главный амбассадор Голландского Штурвала.",
+    rating: 200,
   }])
 
 
