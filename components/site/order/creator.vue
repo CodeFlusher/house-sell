@@ -44,7 +44,13 @@
             <span class="text-style-normal text-xl">{{$t('ui.pages.order.phase.' + item.id)}}</span>
           </KitCheckboxController>
       </ul>
-      <h2 class="text-style-title text-4xl mt-2 max-md:text-center"> {{$t('ui.pages.order.approximate')}}: <span class=" text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-400"> {{ `\$${approximateValue} ` }}</span></h2>
+
+      <h3 class="text-style-normal text-xl mt-4">
+        {{$t('ui.pages.order.approximate.note')}}
+      </h3>
+      <h2 class="text-style-title text-4xl max-md:text-center"> {{$t('ui.pages.order.approximate')}}: <span class=" text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-400"> {{ `\$${approximateValue} ` }}</span></h2>
+
+
     </div>
 
 

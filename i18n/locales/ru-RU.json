@@ -52,6 +52,15 @@
   "ui.pages.order.type.penthouse":"Пентхаус",
   "ui.pages.order.type.commercial":"Площадь коммерческого назначения",
 
+  "ui.pages.order.phases": "Наши задачи",
+  "ui.pages.order.phase.plan": "Планировка",
+  "ui.pages.order.phase.design": "Дизайн",
+  "ui.pages.order.phase.build": "Строительство",
+  "ui.pages.order.phase.renovation": "Ремонт",
+
+  "ui.pages.order.approximate": "Примерная цена",
+  "ui.pages.order.approximate.note": "Примечание: цена является лишь примерной, что означает что она может быть изменена под влияением внешнего фактора",
+
   "ui.choose_box.choose_option":"Выберете вариант",
 
   "ui.input.email.title":"Электронная Почта",
@@ -65,7 +74,6 @@
   "ui.input.question.placeholder":"например: цена доставки?",
 
   "ui.menu.pages.title":"Доступные Страницы",
-
 
   "ui.site.image404":"Изображение не найдено или произошла ошибка загрузки.",
 

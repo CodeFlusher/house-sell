@@ -7,7 +7,7 @@
         {{$t('ui.pages.title.main')}}
       </h1>
 
-      <h2 class=" text-2xl xl:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-t from-zinc-400 via-zinc-300 to-zinc-200 ">
+      <h2 class=" text-2xl xl:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-t from-zinc-200  to-zinc-100 ">
         {{$t('ui.pages.title.description')}}
       </h2>
     </div>

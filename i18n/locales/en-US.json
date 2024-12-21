@@ -57,6 +57,7 @@
   "ui.pages.order.phase.renovation": "Renovation",
 
   "ui.pages.order.approximate": "Approximate price",
+  "ui.pages.order.approximate.note": "Note: price is only approximate, and it might change depending on the different factors",
 
   "ui.choose_box.choose_option":"Choose any option",
 
