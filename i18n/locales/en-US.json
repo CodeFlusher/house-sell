@@ -59,6 +59,17 @@
   "ui.pages.order.approximate": "Approximate price",
   "ui.pages.order.approximate.note": "Note: price is only approximate, and it might change depending on the different factors",
 
+  "ui.pages.places.title": "Where are we?",
+  "ui.pages.places.description": "We serve a lot of different places all over the world, we've built many different buildings within the countries",
+
+  "ui.pages.places.city.projects": "Done projects here",
+  "ui.pages.places.city.teams": "Teams in city",
+  "ui.pages.places.city.button": "See works here",
+
+  "ui.pages.places.footer.title": "Not seeing your city in list?",
+  "ui.pages.places.footer.subtitle": "That doesn't mean we wouldn't serve anyone other that in the cities listed above. We're always interested in helping our clients to build a home, even if it's in a unusual place",
+  "ui.pages.places.footer.order": "Place an order",
+
   "ui.choose_box.choose_option":"Choose any option",
 
   "ui.input.email.title":"E-mail",
@@ -69,12 +80,14 @@
   "ui.input.name.placeholder":"e.g. Ivan, Mia, John etc.",
 
   "ui.input.password.title":"Password",
+  "ui.input.password.repeat":"Repeat Password",
   "ui.input.password.placeholder":"e.g. password (do not use it)",
 
   "ui.input.password.validation.title":"Password should pass these requirements",
   "ui.input.password.validation.length":"Password should be at least 8 symbols long",
   "ui.input.password.validation.symbols":"Password should contain english letters",
   "ui.input.password.validation.digits":"Password should contains digits",
+  "ui.input.password.validation.compare":"Password should be equal",
 
   "ui.input.question.title":"Your question",
   "ui.input.question.placeholder":"e.g. what is build time for my house?",
@@ -84,6 +97,17 @@
   "ui.auth.login.remember": "Remember me",
   "ui.auth.login.login": "Login to account",
   "ui.auth.login.title": "Login",
+
+  "ui.auth.login.no_account": "New to platfrom?",
+  "ui.auth.login.register": "Create new account",
+
+  "ui.auth.register.title": "Registering new account",
+  "ui.auth.register.consent": "I agree with terms of usage",
+
+  "ui.auth.register.register": "Register",
+
+  "ui.auth.register.login": "Already have an account?",
+  "ui.auth.register.redirect": "Login",
 
   "ui.nav.back": "Go back",
 

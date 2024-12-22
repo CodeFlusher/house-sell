@@ -15,6 +15,14 @@ export type OrderPhase = {
     use: boolean,
 }
 
+export type PlacesPageCity = {
+    name: string,
+    description: string,
+    amount: number,
+    img: string,
+    teams: number,
+}
+
 export type DesignerCard = {
     name: string,
     image: string,
