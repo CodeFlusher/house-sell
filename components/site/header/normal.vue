@@ -15,9 +15,9 @@
         </NavigationTab>
       </LazyNuxtLinkLocale>
 
-      <button class="max-md:hidden bg-opacity-0 hover:bg-opacity-25 bg-orange-300 h-fit border border-neutral-300 dark:border-neutral-800 hover:border-orange-300 text-xl rounded-xl text-white p-2 transition-colors duration-200 my-auto">
+      <NuxtLinkLocale to="/auth/login" class="max-md:hidden bg-opacity-0 hover:bg-opacity-25 bg-orange-300 h-fit border border-neutral-300 dark:border-neutral-800 hover:border-orange-300 text-xl rounded-xl text-white p-2 transition-colors duration-200 my-auto">
         <UserIcon class="size-6 my-auto "/>
-      </button>
+      </NuxtLinkLocale>
 
       <LanguagePicker></LanguagePicker>
 
@@ -30,13 +30,6 @@
 import {UserIcon} from "@heroicons/vue/24/solid";
 import {Bars3Icon} from "@heroicons/vue/24/solid";
 import {HomeModernIcon} from "@heroicons/vue/24/solid";
-
-const route = useRoute();
-
-const isIndex = computed(()=>{
-
-  return route.name.indexOf("index") != -1
-})
 
 const emits = defineEmits([
   'toggleMenu'

@@ -9,7 +9,7 @@
       <KitInputEmail/>
       <KitInputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.name.title')" :placeholder="$t('ui.input.name.placeholder')"></KitInputTitled>
       <KitInputTitled :input="name" type="text" :enabled="true" :title="$t('ui.input.question.title')" :placeholder="$t('ui.input.question.placeholder')"></KitInputTitled>
-      <ButtonText :text="$t('ui.pages.main.questions.submit')"></ButtonText>
+      <KitButtonText> {{$t('ui.pages.main.questions.submit')}}</KitButtonText>
     </form>
 
   </div>

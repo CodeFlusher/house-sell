@@ -15,7 +15,7 @@
           {{props.description}}
         </span>
       </div>
-      <ButtonText :text="$t('ui.pages.cards.designer.see_works')" class="ml-auto mt-2" classoverride="max-md:w-full text-lg"></ButtonText>
+      <KitButtonText class="ml-auto mt-2" classoverride="max-md:w-full text-lg">{{$t('ui.pages.cards.designer.see_works')}}</KitButtonText>
     </div>
   </div>
 

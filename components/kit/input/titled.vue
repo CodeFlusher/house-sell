@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col">
     <label class="text-style-title text-xl" for="input_field">{{title}}</label>
-    <KitInputField  id="input_field" :placeholder="placeholder" :type="type" :enabled="enabled"></KitInputField>
+    <div class="flex w-full">
+      <KitInputField class="w-full"  id="input_field" :placeholder="placeholder" :type="type" :enabled="enabled" @update="updateModel" ></KitInputField>
+    </div>
   </div>
 </template>
 
@@ -14,6 +16,14 @@ const props = defineProps({
 })
 
 const model = defineModel<String>('input')
+
+const emits = defineEmits(["update"])
+
+const updateModel = (value: String)=>{
+  model.value = value
+  emits('update', value)
+}
+
 
 </script>
 

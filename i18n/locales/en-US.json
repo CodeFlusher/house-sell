@@ -68,10 +68,24 @@
   "ui.input.name.title":"Your name",
   "ui.input.name.placeholder":"e.g. Ivan, Mia, John etc.",
 
+  "ui.input.password.title":"Password",
+  "ui.input.password.placeholder":"e.g. password (do not use it)",
+
+  "ui.input.password.validation.title":"Password should pass these requirements",
+  "ui.input.password.validation.length":"Password should be at least 8 symbols long",
+  "ui.input.password.validation.symbols":"Password should contain english letters",
+  "ui.input.password.validation.digits":"Password should contains digits",
+
   "ui.input.question.title":"Your question",
   "ui.input.question.placeholder":"e.g. what is build time for my house?",
 
   "ui.menu.pages.title":"Accessable Pages",
+
+  "ui.auth.login.remember": "Remember me",
+  "ui.auth.login.login": "Login to account",
+  "ui.auth.login.title": "Login",
+
+  "ui.nav.back": "Go back",
 
   "ui.site.image404":"Image not found or didnt load properly",
 
