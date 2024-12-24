@@ -1,6 +1,6 @@
 <template>
 
-  <div class="w-full mt-4">
+  <div class=" mt-4">
     <h1 class="text-style-title text-center text-4xl">
       {{$t("ui.pages.places.title")}}
     </h1>

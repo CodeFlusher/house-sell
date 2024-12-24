@@ -2,7 +2,7 @@
   <KitHeaderBg>
     <Bars3Icon class="md:hidden size-10 my-auto aspect-square text-black dark:text-white hover:text-orange-300 transition-colors duration-200"  @click="$emit('toggleMenu')"> </Bars3Icon>
     <LazyNuxtLinkLocale class="flex my-auto gap-4 max-md:m-auto"  to="/">
-      <HomeModernIcon class="size-10 my-auto aspect-square text-black dark:text-white hover:text-orange-300 transition-colors duration-200"  > </HomeModernIcon>
+      <HomeModernIcon class="size-10 my-auto aspect-square text-black dark:text-white hover:text-orange-600 dark:hover:text-orange-300 transition-colors duration-200"  > </HomeModernIcon>
       <NavigationTab>
         <h2 class="self-center text-style-title text-2xl font-bold mt-1.5" > Project Household</h2>
       </NavigationTab>
@@ -16,7 +16,7 @@
       </LazyNuxtLinkLocale>
 
       <NuxtLinkLocale to="/auth/login" class="max-md:hidden bg-opacity-0 hover:bg-opacity-25 bg-orange-300 h-fit border border-neutral-300 dark:border-neutral-800 hover:border-orange-300 text-xl rounded-xl text-white p-2 transition-colors duration-200 my-auto">
-        <UserIcon class="size-6 my-auto "/>
+        <UserIcon class="size-6 my-auto text-black dark:text-white hover:text-orange-600 dark:hover:text-orange-300 transition-colors duration-200"/>
       </NuxtLinkLocale>
 
       <LanguagePicker></LanguagePicker>
@@ -39,7 +39,6 @@ const routerPaths = ref<String[]>([
     'order',
     'projects',
     'places',
-    'history'
 ])
 
 

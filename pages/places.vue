@@ -1,8 +1,9 @@
 <template>
 
-  <div class="w-full flex flex-col">
+  <MousePointerFollower class="z-0"/>
+  <div class="mx-auto flex-col md:max-w-[70vw] z-10">
     <SitePlacesTitle/>
-    <ul class="md:max-w-[70vw] mx-auto grid grid-cols-1 p-4 gap-4">
+    <ul class=" mx-auto grid grid-cols-1 p-4 gap-4">
       <SiteCardCity v-for="item in cities" :amount="item.amount" :name="item.name" :description="item.description" :img="item.img" :teams="item.teams"></SiteCardCity>
     </ul>
     <SitePlacesFooter class="mt-auto mb-4"/>
@@ -13,6 +14,7 @@
 <script setup lang="ts">
 
 import type {PlacesPageCity} from "~/types/dynamic.front";
+import MousePointerFollower from "~/components/background/mousePointerFollower.vue";
 
 const cities = ref<PlacesPageCity[]>([{
   name: "Vologda, Russia",

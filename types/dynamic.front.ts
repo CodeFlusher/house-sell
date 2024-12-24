@@ -13,6 +13,7 @@ export type MobileNavButton = {
 export type OrderPhase = {
     id: string,
     use: boolean,
+    link: any
 }
 
 export type PlacesPageCity = {
@@ -28,4 +29,17 @@ export type DesignerCard = {
     image: string,
     description: string,
     rating: number,
+}
+
+export type ProjectProductCard = {
+    id: number,
+    img: string,
+    name: string,
+    description: string,
+    planState: boolean,
+    designState: boolean,
+    buildState: boolean,
+    renewState: boolean,
+    area: number,
+    buildingType: string,
 }

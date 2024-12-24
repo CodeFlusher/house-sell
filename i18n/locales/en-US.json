@@ -51,6 +51,7 @@
   "ui.pages.order.type.commercial":"Commercial",
 
   "ui.pages.order.phases": "What shall company do",
+  "ui.pages.order.type.none": "None",
   "ui.pages.order.phase.plan": "Planning",
   "ui.pages.order.phase.design": "Design",
   "ui.pages.order.phase.build": "Building",
@@ -70,11 +71,31 @@
   "ui.pages.places.footer.subtitle": "That doesn't mean we wouldn't serve anyone other that in the cities listed above. We're always interested in helping our clients to build a home, even if it's in a unusual place",
   "ui.pages.places.footer.order": "Place an order",
 
+  "ui.pages.projects.title": "Our Projects",
+  "ui.pages.projects.description": "Here are the list of all of the projects that our company is connected with",
+  "ui.pages.projects.filter.title": "Filter Projects",
+  "ui.pages.projects.filter.phases": "Building Phases",
+  "ui.pages.projects.filter.strict": "Strict phase filtering",
+  "ui.pages.projects.min_area": "Minimal Area",
+  "ui.pages.projects.max_area": "Maximum Area",
+
+  "ui.pages.projects.sort.title": "Sorting Order",
+  "ui.pages.projects.max_area.placeholder": "e.g. 100",
+  "ui.pages.projects.min_area.placeholder": "e.g. 0",
+
+  "ui.pages.projects.sort.price.increase": "By price increase",
+  "ui.pages.projects.sort.price.lower": "By price lower",
+
+  "ui.pages.projects.sort.area.increase": "By area increase",
+  "ui.pages.projects.sort.area.lower": "By area lower",
+
   "ui.choose_box.choose_option":"Choose any option",
 
   "ui.input.email.title":"E-mail",
   "ui.input.email.placeholder":"e.g. example example.com",
   "ui.input.email.wrong":"Invalid e-mail provided",
+
+  "ui.input.search.placeholder":"Discover data....",
 
   "ui.input.name.title":"Your name",
   "ui.input.name.placeholder":"e.g. Ivan, Mia, John etc.",

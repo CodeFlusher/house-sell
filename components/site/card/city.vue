@@ -1,7 +1,7 @@
 <template>
-  <div class="grid lg:grid-cols-2 lg:gap-8">
-    <img class="aspect-[3/1] h-full text-center text-style-normal rounded-t-lg lg:rounded-b-lg object-cover shadow-md shadow-orange-300 dark:shadow-neutral-800" :src="img" alt="city image">
-    <KitCardNormal class="p-4 flex flex-col justify-between" oclass="rounded-none rounded-b-xl lg:rounded-t-xl">
+  <div class="grid lg:grid-cols-2 lg:gap-4">
+    <img class="aspect-[3/1] h-full text-center text-style-normal rounded-t-lg lg:rounded-b-lg object-cover shadow-md shadow-neutral-200 dark:shadow-neutral-800" :src="img" alt="city image">
+    <KitCardNormal class="p-4 flex flex-col justify-between " oclass="transition-all duration-200 rounded-none rounded-b-xl lg:rounded-t-xl hover:shadow-orange-300 hover:dark:shadow-neutral-800">
       <div class="flex flex-col">
         <h2 class="mt-4 text-style-title text-4xl max-md:text-center"> {{name}}</h2>
         <span class="text-style-normal text-2xl ">{{description}}</span>

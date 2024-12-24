@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['./index.css'],
   i18n: {
-    lazy: true,
+    // lazy: true,
     defaultLocale: 'en',
     detectBrowserLanguage: false,
     vueI18n: './i18n.config.ts',

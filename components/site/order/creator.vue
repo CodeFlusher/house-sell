@@ -1,6 +1,6 @@
 <template>
 
-  <div class=" grid grid-cols-1 lg:grid-cols-2 m-auto gap-4 px-2 md:px-12">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-2 md:px-12">
     <BackgroundMousePointerFollower/>
     <div class="p-4 backdrop-blur-0 lg:w-[40vw]">
       <h1 class="text-style-title text-2xl">
@@ -15,26 +15,7 @@
         <span class="text-style-normal text-xl">{{$t('ui.pages.order.separate')}}</span>
       </KitCheckboxController>
 
-      <KitChooseboxController v-model:active="active" v-model:item="item">
-        <template #button>
-          <KitChooseboxButton :active="active" :title="$t('ui.pages.order.building_type')">
-            <span class="text-style-normal text-xl">
-                 {{ item ? $t('ui.pages.order.type.' + item) : $t('ui.choose_box.choose_option') }}
-            </span>
-          </KitChooseboxButton>
-        </template>
-        <template #items>
-          <KitChooseboxItems>
-            <KitChooseboxItem
-                v-for="i in items"
-                @click="changeItem(i)"
-                :key="i"
-            >
-              <span class="text-style-normal text-xl">{{$t('ui.pages.order.type.' + i)}}</span>
-            </KitChooseboxItem>
-          </KitChooseboxItems>
-        </template>
-      </KitChooseboxController>
+      <SiteToolsBuildTypeChooser/>
 
       <h1 class="text-style-title text-xl mt-2">
         {{$t('ui.pages.order.phases')}}
@@ -63,8 +44,6 @@
 
 import type {OrderPhase} from "~/types/dynamic.front";
 
-const active = ref<boolean>(false);
-
 const planLandValue = ref<number>(20);
 const designLandValue = ref<number>(46);
 const landValue = ref<number>(3873);
@@ -81,13 +60,6 @@ const approximateValue = computed(()=>{
       + (phases.value[2].use ? 1 : 0) * (landValue.value * landmass.value)
       + (phases.value[3].use ? 1 : 0) * (renovationLandValue.value * landmass.value);
 })
-
-const items = ref<Array<string>>([
-    'apartment',
-    'house',
-    'penthouse',
-    'commercial'
-]);
 
 const phases = ref<OrderPhase[]>([
   {
@@ -107,13 +79,6 @@ const phases = ref<OrderPhase[]>([
     use: false
   },
 ])
-
-const item = ref<string>('');
-
-const changeItem = (i: string)=>{
-  item.value = i;
-  active.value = false;
-}
 
 
 </script>

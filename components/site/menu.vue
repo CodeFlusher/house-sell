@@ -45,6 +45,5 @@ const routerPaths = ref<MobileNavButton[]>([
   {id: 'order', icon: CurrencyDollarIcon},
   {id: 'projects', icon: DocumentIcon},
   {id: 'places', icon: GlobeEuropeAfricaIcon},
-  {id: 'history', icon: ArchiveBoxIcon},
 ])
 </script>

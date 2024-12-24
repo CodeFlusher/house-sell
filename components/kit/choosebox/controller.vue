@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div class="w-full">
     <div @click="toggle" class="w-full">
       <slot name="button" :item="item" :active="isActive"/>
     </div>
