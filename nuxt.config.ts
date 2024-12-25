@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', 'nuxt-headlessui', '@nuxt/image'],
   devtools: { enabled: true },
   css: ['./index.css'],
-  ssr: false,
   i18n: {
     // lazy: true,
     defaultLocale: 'en',

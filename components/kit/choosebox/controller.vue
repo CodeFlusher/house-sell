@@ -17,7 +17,6 @@ const isActive = defineModel<boolean>('active');
 const item = defineModel<boolean>('item');
 
 const toggle = ()=>{
-  console.log(item.value)
   isActive.value = !isActive.value;
 }
 

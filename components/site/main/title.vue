@@ -17,6 +17,6 @@
 
 <script setup lang="ts">
 
-const imageURL = ref<string>('https://media.discordapp.net/attachments/638787427728621578/1317190295053402112/hero-image.jpg?ex=6763b74e&is=676265ce&hm=f498bb51ba3b00da272ffeb807f6cd65c487c6dd3d7c7d9a04fee7f810dcf3de&=&format=webp&width=550&height=309')
+const imageURL = ref<string>('/images/order/house/large.png')
 
 </script>

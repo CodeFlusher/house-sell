@@ -20,12 +20,12 @@ import type {DesignerCard} from "~/types/dynamic.front";
 
 const data = ref<Array<DesignerCard>>([{
   name: "Emelya",
-  image: "https://media.discordapp.net/attachments/1139268874257322068/1194551360419541072/attachment-7.gif?ex=6763d2a6&is=67628126&hm=6ce0a327848527b2434ff342b597c7a116da58141e985b40d46bfdaea21ad93a&",
+  image: "/images/pfp/emelya.png",
   description: "Team leader for a build our most powerful and skilled team - 'Omni Build Team'",
   rating: 4
 },{
   name: "Egor",
-  image: "https://media.discordapp.net/attachments/707912596333789235/1319285275297316884/IMG_20241218_013200_518.jpg?ex=676567a8&is=67641628&hm=f41020aeafe805bc220f5532f0ed392c6c2f382e0e9f7e91ebaee2e586efe096&=&format=webp&width=302&height=670",
+  image: "https://avatars.githubusercontent.com/u/50952974?v=4",
   description: "Front-end developer for this internet resource - Project Household",
   rating: 2.7
 }])

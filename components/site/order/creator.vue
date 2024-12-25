@@ -15,7 +15,7 @@
         <span class="text-style-normal text-xl">{{$t('ui.pages.order.separate')}}</span>
       </KitCheckboxController>
 
-      <SiteToolsBuildTypeChooser/>
+      <SiteToolsBuildTypeChooser v-model:item="buildType"/>
 
       <h1 class="text-style-title text-xl mt-2">
         {{$t('ui.pages.order.phases')}}
@@ -32,8 +32,8 @@
       <h2 class="text-style-title text-4xl max-md:text-center"> {{$t('ui.pages.order.approximate')}}: <span class=" text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-400"> {{ `\$${approximateValue} ` }}</span></h2>
     </div>
 
-    <div class="h-full max-lg:hidden flex">
-      <img class="aspect-square size-96 object-cover z-10 m-auto rounded-xl" src="https://media.discordapp.net/attachments/655398070535585792/1319597608137789450/vD8qhbxkI2tXR5CY3eCng9MLKs08mukGv1-uDZ6nxKa7Q6Tt8jBPnNBYkhiaakugUKFNYN4f6o_KveRdhUeKe672.jpg?ex=67692d8a&is=6767dc0a&hm=46ff6442c42b70f6ad9cb1666dadd5646af7fa805df1da1a3320937dbf147b69&=&format=webp&width=573&height=671" alt="cards">
+    <div class="h-full w-full max-lg:hidden flex">
+      <img class="h-full w-full object-cover z-10 m-auto rounded-xl" :src="image" alt="cards">
     </div>
 
   </div>
@@ -50,11 +50,38 @@ const landValue = ref<number>(3873);
 const renovationLandValue = ref<number>(500);
 const landmass = ref<number>();
 
+const buildType = ref<string>('');
+
+const lastResult = ref<string>('/images/order/apartment/large.png');
+
+const imageParent = '/images/order/'
+
+const image = computed(()=>{
+  console.log('update')
+  if (!landmass.value) {
+    return lastResult.value;
+  }
+  if (!buildType.value) {
+    return lastResult.value;
+  }
+  let temp = imageParent + buildType.value;
+  if (landmass.value < 60) {
+    lastResult.value = temp + '/small.png'
+    return lastResult.value;
+  }
+  if (landmass.value > 120) {
+    lastResult.value = temp + '/large.png'
+    return lastResult.value;
+  }
+  lastResult.value = temp + '/medium.png'
+  return lastResult.value;
+
+})
+
 const approximateValue = computed(()=>{
   if(!landmass.value){
     return 0;
   }
-  console.log(phases.value)
   return (phases.value[0].use ? 1 : 0) * (planLandValue.value * landmass.value)
       + (phases.value[1].use ? 1 : 0) * (designLandValue.value * landmass.value)
       + (phases.value[2].use ? 1 : 0) * (landValue.value * landmass.value)

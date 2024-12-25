@@ -56,7 +56,7 @@ const searchOrder = ref<string>('');
 
 const preFilter = ref<ProjectProductCard[]>([{
   id: 0,
-  img: "https://media.discordapp.net/attachments/638787427728621578/1317182189950996490/photo_2024-12-13_20-31-29.jpg?ex=676c4182&is=676af002&hm=bafb1b0158bf13f462b64dff7018b7b6ed01cc47473ec50c71466c7366ebd551&=&format=webp&width=302&height=671",
+  img: "/images/order/house/medium.png",
   name: "Personal house in Vologda Region",
   description: "Simple small household",
   planState: true,
@@ -67,6 +67,53 @@ const preFilter = ref<ProjectProductCard[]>([{
   buildingType: 'house',
   price: 450000
 }])
+
+for (let i = 0; i < 20; i++) {
+  preFilter.value.push({
+    id: i+1,
+    img: "/images/order/house/medium.png",
+    name: "Personal house in Vologda Region",
+    description: "Simple small household",
+    planState: Math.random() < 0.5,
+    designState: Math.random() < 0.5,
+    buildState: Math.random() < 0.5,
+    renewState: Math.random() < 0.5,
+    area: Math.random()*120 + 40,
+    buildingType: 'house',
+    price: Math.random() * 300000 + 12000,
+  })
+}
+
+for (let i = 0; i < 20; i++) {
+  preFilter.value.push({
+    id: i + 21,
+    img: "/images/order/apartment/medium.png",
+    name: "Apartments in Moscow",
+    description: "A personal apartment in Moscow",
+    planState: Math.random() < 0.5,
+    designState: Math.random() < 0.5,
+    buildState: Math.random() < 0.5,
+    renewState: Math.random() < 0.5,
+    area: Math.random()*120 + 40,
+    buildingType: 'apartment',
+    price: Math.random() * 300000 + 12000,
+  })
+}
+for (let i = 0; i < 10; i++) {
+  preFilter.value.push({
+    id: i+41,
+    img: "/images/order/commercial/small.png",
+    name: "Commercial Building",
+    description: "A personal apartment in Moscow",
+    planState: Math.random() < 0.5,
+    designState: Math.random() < 0.5,
+    buildState: Math.random() < 0.5,
+    renewState: Math.random() < 0.5,
+    area: Math.random()*120 + 40,
+    buildingType: 'commercial',
+    price: Math.random() * 300000 + 12000,
+  })
+}
 
 
 const filteredData = computed(()=>{

@@ -15,11 +15,11 @@
         <div class="flex flex-col">
           <span class="text-style-normal text-xl">
             {{$t('ui.projects.price')}}:
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ '$' + props.price }}</span>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ '$' + props.price.toFixed(0) }}</span>
           </span>
           <span class="text-style-normal text-xl">
             {{$t('ui.projects.area')}}:
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ props.area }}m²</span>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ props.area.toFixed(0) }}m²</span>
           </span>
 
         </div>

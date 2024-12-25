@@ -38,7 +38,7 @@ const items = ref<Array<string>>([
 
 
 const active = ref<boolean>(false);
-const item = defineModel<string>('');
+const item = defineModel<string>('item');
 
 const changeItem = (i: string)=>{
   item.value = i;
