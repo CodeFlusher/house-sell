@@ -75,6 +75,67 @@
 
   "ui.menu.pages.title":"Доступные Страницы",
 
+  "ui.pages.places.title": "Где мы работаем?",
+  "ui.pages.places.description": "Мы обслуживаем множество клиентов со всего мира",
+
+  "ui.pages.places.city.projects": "Готовые проекты",
+  "ui.pages.places.city.teams": "Команды в городе",
+  "ui.pages.places.city.button": "Смотреть работы",
+
+  "ui.pages.places.footer.title": "Не нашли своего города?",
+  "ui.pages.places.footer.subtitle": "Это не значит что мы не поддерживаем ваш город, мы всегда готовы выполнить любую работу в любом городе",
+  "ui.pages.places.footer.order": "Сделать заказ",
+
+  "ui.pages.projects.title": "Наши Работы",
+  "ui.pages.projects.description": "Список всех работ, где участвовала наша компания",
+  "ui.pages.projects.filter.title": "Фильтр",
+  "ui.pages.projects.filter.phases": "Фазы работ",
+  "ui.pages.projects.filter.strict": "Строгое соответсвие фаз",
+  "ui.pages.projects.min_area": "Минимальная площадь",
+  "ui.pages.projects.max_area": "Максимальная площадь",
+
+  "ui.pages.projects.sort.title": "Порядок сортировки",
+  "ui.pages.projects.max_area.placeholder": "например 100",
+  "ui.pages.projects.min_area.placeholder": "например 0",
+
+  "ui.pages.projects.price": "Общая цена",
+  "ui.pages.projects.area": "Общая площадь",
+
+  "ui.pages.projects.sort.price.increase": "По увеличению цены",
+  "ui.pages.projects.sort.price.lower": "По снижению цены",
+
+  "ui.pages.projects.sort.area.increase": "По увеличению площади",
+  "ui.pages.projects.sort.area.lower": "По снижению площади",
+
+  "ui.input.search.placeholder":"Найти....",
+
+  "ui.input.password.title":"Пароль",
+  "ui.input.password.repeat":"Повторите пароль",
+  "ui.input.password.placeholder":"например password (Не используйте его)",
+
+  "ui.input.password.validation.title":"Пароль должен совпадать с следующими параметрами",
+  "ui.input.password.validation.length":"Пароль должен быть длиннее 8 символов",
+  "ui.input.password.validation.symbols":"Пароль должен содержать буквы английского алфавита",
+  "ui.input.password.validation.digits":"Пароль должен содержать цифры",
+  "ui.input.password.validation.compare":"Пароли должны быть равны",
+
+  "ui.auth.login.remember": "Запоминить вход",
+  "ui.auth.login.login": "Вход в аккаунт",
+  "ui.auth.login.title": "Вход",
+
+  "ui.auth.login.no_account": "Впервые тут?",
+  "ui.auth.login.register": "Зарегестрироваться",
+
+  "ui.auth.register.title": "Создание аккаунта",
+  "ui.auth.register.consent": "Я согласен с пользовательским соглашением",
+
+  "ui.auth.register.register": "Регистрация",
+
+  "ui.auth.register.login": "Уже есть аккаунт?",
+  "ui.auth.register.redirect": "Войти",
+
+  "ui.nav.back": "Назад",
+
   "ui.site.image404":"Изображение не найдено или произошла ошибка загрузки.",
 
   "ui.locale.en": "English",

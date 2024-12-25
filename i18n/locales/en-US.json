@@ -83,6 +83,9 @@
   "ui.pages.projects.max_area.placeholder": "e.g. 100",
   "ui.pages.projects.min_area.placeholder": "e.g. 0",
 
+  "ui.pages.projects.price": "Overall Price",
+  "ui.pages.projects.area": "Building Area",
+
   "ui.pages.projects.sort.price.increase": "By price increase",
   "ui.pages.projects.sort.price.lower": "By price lower",
 

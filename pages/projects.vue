@@ -12,7 +12,7 @@
           v-model:min="filterMinArea"
           v-model:max="filterMaxArea"
           v-model:strict="filterStrict"
-                          class="max-xl:overflow-scroll max-h-[90vh] max-xl:z-50 xl:h-fit max-xl:opacity-0 max-xl:mt-16 max-xl:fixed max-xl:left-1/2 max-xl:bottom-0 max-xl:-translate-x-1/2 transition-opacity duration-200 max-lg:pointer-events-none" :class="{'max-xl:opacity-100 max-xl:pointer-events-auto': visibleFilter}"
+                          class="max-xl:overflow-scroll max-h-[90vh] max-xl:z-50 xl:h-fit max-xl:opacity-0 max-xl:mt-16 max-xl:fixed max-xl:left-1/2 max-xl:bottom-0 max-xl:-translate-x-1/2 transition-opacity duration-200" :class="visibleFilter? 'max-xl:opacity-100 max-xl:pointer-events-auto': 'max-xl:pointer-events-none'"
           @toggleFilter="visibleFilter = !visibleFilter"
           />
       <div class="h-full xl:w-[70%]">

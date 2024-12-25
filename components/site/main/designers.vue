@@ -27,7 +27,7 @@ const data = ref<Array<DesignerCard>>([{
   name: "Egor",
   image: "https://avatars.githubusercontent.com/u/50952974?v=4",
   description: "Front-end developer for this internet resource - Project Household",
-  rating: 2.7
+  rating: 5
 }])
 
 

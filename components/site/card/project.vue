@@ -14,11 +14,11 @@
       <div class="mt-auto w-full">
         <div class="flex flex-col">
           <span class="text-style-normal text-xl">
-            {{$t('ui.projects.price')}}:
+            {{$t('ui.pages.projects.price')}}:
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ '$' + props.price.toFixed(0) }}</span>
           </span>
           <span class="text-style-normal text-xl">
-            {{$t('ui.projects.area')}}:
+            {{$t('ui.pages.projects.area')}}:
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-green-600 font-extrabold">{{ props.area.toFixed(0) }}m²</span>
           </span>
 
@@ -30,7 +30,6 @@
           <KitTextIcon v-if="renewState" :component="WrenchScrewdriverIcon">{{$t('ui.pages.order.phase.renovation')}}</KitTextIcon>
         </ul>
 
-        <KitButtonText class="w-full"> {{$t('ui.pages.projects.goto')}}</KitButtonText>
       </div>
     </div>
 
