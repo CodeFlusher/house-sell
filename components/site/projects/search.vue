@@ -5,7 +5,7 @@
       <MagnifyingGlassIcon class="size-6 text-style-normal my-auto ml-2"/>
     </KitInputField>
     <div class="flex h-fit my-2 px-2">
-      <FunnelIcon @click="$emit('toggleFilter')" class="size-12 lg:hidden text-style-normal my-auto"/>
+      <FunnelIcon @click="$emit('toggleFilter')" class="size-12 xl:hidden text-style-normal my-auto"/>
       <ArrowPathRoundedSquareIcon class="size-10 text-style-normal my-auto"/>
       <div class="w-fit px-4 backdrop-blur-0 flex my-auto w-full">
         <KitChooseboxController class=" " v-model:input="order" v-model:active="isActive">
