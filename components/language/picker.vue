@@ -3,8 +3,6 @@
 <script setup lang="ts">
 import {GlobeAltIcon} from "@heroicons/vue/24/solid";
 
-import {useSwitchLocalePath} from "#imports";
-
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
